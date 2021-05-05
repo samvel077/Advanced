@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#general1, #general3 {
+    width: 100%;
+    margin: 0px;
+    height: 60px; 
+    background-color: rgb(25, 25, 80);
+}
+.list1, .list2, .list3 {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.list1 > h4 {
+    margin-left: 24px;
+}
+.list2 > h4 {
+    margin-left: 84px;
+}
+.list3 > h4 {
+    margin-left: 72px;
+}
+.table {
+    width: 100%;
+}
+.tr:nth-child(2n) {
+    background-color: #F0F0F0;
+}
+.href > span {
+    cursor: pointer;
+}
+#butBack {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

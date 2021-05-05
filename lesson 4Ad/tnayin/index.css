@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img {
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 1200ms;
+}
+
+#img:active {
+    transform: scale(0.98);
+    transition: transform .2s;
+}
+
+#img1,
+#img2 {
+    width: 300px;
+    height: 400px;
+    margin-left: 620px;
+    margin-top: 150px;
+    position: absolute;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,.3);
+}
+
+#img.flip {
+    transform: perspective(2000px) rotateY(180deg);
+}
+
+#img1 {
+    transform: rotateY(180deg);
+}
+
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="colorChanger">
+        <h3>Color Change</h3>
+        <div class="text text1">
+            <div class="circle circle1"></div><span class="span2">X : O</span>
+        </div>
+        <div class="text text2">
+            <div class="circle circle2"></div><span class="span3">X : <span class="span5">O</span></span>
+        </div>
+        <div class="text text3">
+            <div class="circle circle3"></div><span class="span4">X : <span class="span6">O</span></span>
+        </div>
+    </div>
+    <button class="button1">Dark</button>
+    <button class="button2">Light</button>
+    <span class="span1 color">Player: X</span>
+    <div id="gameConteiner" class="color">
+        <div class="cube color" pos="1"></div>
+        <div class="cube color" pos="2"></div>
+        <div class="cube color" pos="3"></div>
+        <div class="cube color" pos="4"></div>
+        <div class="cube color" pos="5"></div>
+        <div class="cube color" pos="6"></div>
+        <div class="cube color" pos="7"></div>
+        <div class="cube color" pos="8"></div>
+        <div class="cube color" pos="9"></div>
+    </div>
+
+    <div class="stat">
+        <table class="color">
+            <th colspan="2" class="color">Статистика</th>
+            <tr>
+                <td class="color">X</td>
+                <td class="color"><span id="sX">0</span></td>
+            </tr>
+            <tr>
+                <td class="color">O</td>
+                <td class="color"><span id="sO">0</span></td>
+            </tr>
+            <tr>
+                <td class="color">Ничьи</td>
+                <td class="color"><span id="sD">0</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

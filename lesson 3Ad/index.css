@@ -1,0 +1,39 @@
+body {
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ overflow: hidden;
+}
+
+#div {
+    width: 70px;
+    height: 70px;
+    /* background-color: black; */
+    position: absolute;
+    display: none;
+}
+
+#div img {
+    width: 130px;
+    height: 130px;
+}
+
+button {
+    display: flex;
+    margin-top: 300px;
+    margin-left: 650px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+p {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    opacity: 0;
+    color: rgb(253, 236, 0);
+}
+
+

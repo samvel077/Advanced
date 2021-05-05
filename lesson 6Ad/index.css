@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+#table {
+    display: inline-block;
+    border: solid black;
+    width: 400px;
+}
+
+th, td {
+    border: solid black;
+    width: 400px;
+}
+

@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#lastNameDiv {
+    display: none;
+}
+
+#mailDiv {
+    display: none;
+}
+
+#info {
+    display: none;
+}

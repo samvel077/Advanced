@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        overflow: hidden;
+        height: 100vh;
+        background-color: lightblue;
+    }
+
+    span {
+        position: absolute;
+        background-size: cover;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+        animation: animate 4s linear infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            transform:  translate(-50%, -50%);
+            opacity: 1;
+        }
+        80% {
+            opacity: 0;
+        }
+        100% {
+            transform: translate(-50%, -1200%);
+            opacity: 0;
+
+        }
+    }
+
+
+/* #slavik{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: red;
+  } */
